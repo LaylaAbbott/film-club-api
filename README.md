@@ -28,3 +28,12 @@ FastAPI-based REST API for managing film club categories and rounds.
 - SQLAlchemy
 - SQLite
 - Python 3.7+
+
+## Structure
+film-club-api/
+├── venv/
+├── requirements.txt
+├── main.py           # FastAPI app & routes
+├── database.py       # SQLAlchemy setup & models
+├── schemas.py        # Pydantic models for request/response
+└── film_club.db      # SQLite database (auto-created)
